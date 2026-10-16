@@ -1,4 +1,7 @@
-from .code_binaire import Bit, CodeBinaire
+try:
+    from .code_binaire import Bit, CodeBinaire
+except ImportError:
+    from code_binaire import Bit, CodeBinaire
 
 
 def _parse_bits(text: str) -> list[Bit]:
