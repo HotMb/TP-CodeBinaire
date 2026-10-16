@@ -1,6 +1,6 @@
 import pytest
 
-from sem1.code_binaire import Bit, CodeBinaire, AuMoinsUnBitErreur
+from code_binaire import Bit, CodeBinaire, AuMoinsUnBitErreur
 
 
 def test_egalite():
