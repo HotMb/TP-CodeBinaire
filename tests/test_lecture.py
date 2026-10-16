@@ -1,7 +1,7 @@
 import pytest
 
-from sem1 import from_string, from_user_input
-from sem1.code_binaire import Bit, CodeBinaire
+from reader import from_string, from_user_input
+from code_binaire import Bit, CodeBinaire
 
 
 def test_from_string_creates_code_binaire():
